@@ -1,0 +1,96 @@
+/* Reset dei margini e dei padding per il corpo e gli elementi principali */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Stile dell'header */
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Stile della barra di navigazione */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Stile del titolo principale */
+.hero {
+    background-image: url('sostenibilita.jpg'); /* Immagine di sfondo accattivante */
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+/* Stile del pulsante di chiamata all'azione (CTA) */
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Stile delle sezioni "Chi Siamo", "La Nostra Soluzione" e "Contattaci" */
+.container {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 16px;
+}
+
+/* Stile del form di contatto */
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Stile del footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
