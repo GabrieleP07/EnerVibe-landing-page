@@ -29,12 +29,14 @@ nav a {
 
 /* Stile del titolo principale */
 .hero {
-    background-image: url('sostenibilita.jpg'); /* Immagine di sfondo accattivante */
-    background-size: cover;
+    background-image: url('sostenibilita.jpg'); /* Sostituisci con il nome del tuo file di immagine di sfondo */
+    background-size: cover; /* Aggiungi questa riga */
+    background-position: center; /* Facoltativo: centra l'immagine */
     color: #fff;
     text-align: center;
     padding: 100px 0;
 }
+
 
 .hero h1 {
     font-size: 36px;
